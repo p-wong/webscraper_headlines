@@ -1,6 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
-require 'pry'
+# require 'pry'
 
 print "How many headlines do you want to view (up to 7)? "
 response = gets.chomp
@@ -37,7 +37,7 @@ while 2 <= z && z < response.to_i
   z += 1
 end
 
-#binding.pry
+# binding.pry
 
 puts "\n"
 puts " - - - Source: Wall Street Journal - - - "
