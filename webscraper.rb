@@ -48,23 +48,3 @@ puts verge_headings
 puts "\n"
 puts " - - - Source: Business of Fashion - - - "
 puts bof_headings
-
-
-
-# class Scraper
-#
-#   def self.scrape_wsj
-#     doc = Nokogiri::HTML(open("https://wsj.com/"))
-#     x = 0
-#     heading = doc.css("a.wsj-headline-link")[x].text
-#   end
-#
-#   def self.scrape_verge
-#     doc = Nokogiri::HTML(open("https://www.theverge.com"))
-#     y = 0
-#     heading = doc.css("h2")[y].text
-#   end
-# end
-
-#Scraper.scrape_verge
-# first_link = doc.css("a.wsj-headline-link")[0].attribute("href").value
